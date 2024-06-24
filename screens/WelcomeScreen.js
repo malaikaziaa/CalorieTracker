@@ -12,7 +12,7 @@ const WelcomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../assets/images/welcomeImage.png")}
+        source={require("../assets/welcomeImage.png")}
         style={styles.logo}
       />
       <Text style={styles.appName}>FAST APP</Text>
