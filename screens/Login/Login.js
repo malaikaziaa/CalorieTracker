@@ -54,7 +54,7 @@ const LoginScreen = ({ navigation }) => {
         );
 
         if (response.status === 200) {
-          navigation.navigate("PersonalInformation");
+          navigation.navigate("ProductList");
         }
       } catch (error) {
         setModalMessage(error.response.data.msg || "Something went wrong!");
